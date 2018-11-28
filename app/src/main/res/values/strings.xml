@@ -3,6 +3,47 @@
     <string name="juego_aciertos">Juego de Aciertos</string>
     <string name="nprimos">Números Primos</string>
     <string name="desplazandoimagenes">Desplazando Imágenes</string>
+    <string name="seleccionandoimagenes">Seleccionando Imágenes</string>
+
+    <string name="nPrimos">NÚMEROS PRIMOS</string>
+    <string name="juegoAciertos">JUEGO DE ACIERTOS</string>
+    <string name="desplazarImagenes">DESPLAZAR IMÁGENES</string>
+    <string name="seleccionarImagenes">SELECCIONAR IMÁGENES</string>
+    <string name="txtNPrimo">Introducir número: </string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="pais">País: </string>
+    <string name="capital" translatable="false">Capital: </string>
+    <string name="btnVerificar">Verificar</string>
+    <string name="radNicaragua" translatable="false">Nicaragua</string>
+    <string name="radPortugal" translatable="false">Portugal</string>
+    <string name="radSierraLeona">Sierra Leona</string>
+    <string name="radItalia">Italia</string>
+    <string name="radAlemania">Alemania</string>
+    <string name="radPapua">Papúa Nueva Guinea</string>
+    <string name="radJapon">Japón</string>
+    <string name="radZimbabue">Zimbabue</string>
+    <string name="radEtiopia">Etiopía</string>
+    <string name="radGeorgia" translatable="false">Georgia</string>
+    <string name="radTokio">Tokio</string>
+    <string name="radTiflis" translatable="false">Tiflis</string>
+    <string name="radFreeTown" translatable="false">FreeTown</string>
+    <string name="radManagua" translatable="false">Managua</string>
+    <string name="radAA">Adís Abeba</string>
+    <string name="radLisboa">Lisboa</string>
+    <string name="radHarare" translatable="false">Harare</string>
+    <string name="radRoma">Roma</string>
+    <string name="radPM">Puerto Moresby</string>
+    <string name="radBerlin">Berlín</string>
+    <string name="btnRosa">Rosa</string>
+    <string name="btnTulipan">Tulipán</string>
+    <string name="btnMargarita">Margarita</string>
+    <string name="btnClavel">Clavel</string>
+
+
+
+
+
+
 
 
     <!-- TODO: Remove or change this placeholder text -->

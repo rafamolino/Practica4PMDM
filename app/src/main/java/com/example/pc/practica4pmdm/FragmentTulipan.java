@@ -62,4 +62,6 @@ public class FragmentTulipan extends Fragment {
         return inflater.inflate(R.layout.fragment_tulipan, container, false);
     }
 
+    public interface OnFragmentInteractionListener {
+    }
 }

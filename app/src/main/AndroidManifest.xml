@@ -25,7 +25,8 @@
         <activity
             android:name=".DesplazandoImagenes"
             android:label="@string/desplazandoimagenes" />
-        <activity android:name=".SeleccionandoImagenes"></activity>
+        <activity android:name=".SeleccionandoImagenes"
+            android:label="@string/seleccionandoimagenes"></activity>
     </application>
 
 </manifest>

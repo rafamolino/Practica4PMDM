@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="País" />
+        android:text="@string/pais" />
 
     <fragment
         android:id="@+id/fragment"
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Capital" />
+        android:text="@string/capital" />
 
     <fragment
         android:id="@+id/fragment2"
@@ -48,7 +48,7 @@
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="País: " />
+            android:text="@string/pais" />
 
         <TextView
             android:id="@+id/txtPais"
@@ -68,7 +68,7 @@
             android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Capital: " />
+            android:text="@string/capital" />
 
         <TextView
             android:id="@+id/txtCapital"
@@ -88,7 +88,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Verificar" />
+            android:text="@string/btnVerificar" />
     </LinearLayout>
 
     <LinearLayout

@@ -18,7 +18,7 @@
             android:layout_width="166dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="17dp"
-            android:text="Introducir número:"
+            android:text="@string/txtNPrimo"
             android:textSize="18sp" />
 
         <EditText
@@ -41,7 +41,7 @@
             android:layout_height="match_parent"
             android:layout_margin="40dp"
             android:gravity="center"
-            android:text="Calcular" />
+            android:text="@string/btnCalcular" />
     </LinearLayout>
 
     <LinearLayout

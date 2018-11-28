@@ -62,4 +62,6 @@ public class FragmentRosa extends Fragment {
         return inflater.inflate(R.layout.fragment_rosa, container, false);
     }
 
+    public interface OnFragmentInteractionListener {
+    }
 }

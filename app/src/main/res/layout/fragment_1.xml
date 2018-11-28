@@ -31,69 +31,69 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Nicaragua" />
+                        android:text="@string/radNicaragua" />
 
                     <RadioButton
                         android:id="@+id/radPor"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Portugal" />
+                        android:text="@string/radPortugal" />
 
                     <RadioButton
                         android:id="@+id/radSL"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Sierra Leona" />
+                        android:text="@string/radSierraLeona" />
 
                     <RadioButton
                         android:id="@+id/radIta"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Italia" />
+                        android:text="@string/radItalia" />
 
                     <RadioButton
                         android:id="@+id/radAle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Alemania" />
+                        android:text="@string/radAlemania" />
 
                     <RadioButton
                         android:id="@+id/radPNG"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Papúa Nueva Guinea" />
+                        android:text="@string/radPapua" />
 
                     <RadioButton
                         android:id="@+id/radJap"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Japón" />
+                        android:text="@string/radJapon" />
 
                     <RadioButton
                         android:id="@+id/radZim"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Zimbabue" />
+                        android:text="@string/radZimbabue" />
 
                     <RadioButton
                         android:id="@+id/radEti"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Etiopía" />
+                        android:text="@string/radEtiopia" />
 
                     <RadioButton
                         android:id="@+id/radGeo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Georgia" />
+                        android:text="@string/radGeorgia" />
                 </RadioGroup>
 
             </LinearLayout>

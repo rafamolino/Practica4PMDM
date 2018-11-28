@@ -8,20 +8,20 @@
     android:orientation="vertical"
     tools:context=".SeleccionandoImagenes">
 
-    <FrameLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        android:id="@+id/fragment"
+        android:layout_height="300dp"
+        android:orientation="horizontal">
 
-
-
-        <fragment
-            android:id="@+id/fragment5"
-            android:name="com.example.pc.practica4pmdm.FragmentRosa"
+        <FrameLayout
+            android:id="@+id/contenedorFragment"
             android:layout_width="match_parent"
-            android:layout_height="304dp"
-            android:layout_margin="15dp" />
-    </FrameLayout>
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+
+        </FrameLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,13 +39,16 @@
                 android:id="@+id/btnRosa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Rosa" />
+                android:text="@string/btnRosa"
+                android:onClick="onClick"/>
+
 
             <Button
                 android:id="@+id/btnMargarita"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Margarita" />
+                android:text="@string/btnMargarita"
+                android:onClick="onClick"/>
         </LinearLayout>
 
         <LinearLayout
@@ -58,13 +61,15 @@
                 android:id="@+id/btnTulipan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tulipán" />
+                android:text="@string/btnTulipan"
+                android:onClick="onClick"/>
 
             <Button
                 android:id="@+id/btnClavel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Clavel" />
+                android:text="@string/btnClavel"
+                android:onClick="onClick"/>
         </LinearLayout>
     </LinearLayout>
 

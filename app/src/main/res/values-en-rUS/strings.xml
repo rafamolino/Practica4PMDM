@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practica4PMDM</string>
+    <string name="juego_aciertos">Guess Game</string>
+    <string name="juegoAciertos">GUESS GAME</string>
+    <string name="pais">Country:</string>
+    <string name="btnVerificar">Verify</string>
+    <string name="radSierraLeona">Sierra Leone</string>
+    <string name="radItalia">Italy</string>
+    <string name="radAlemania">Germany</string>
+    <string name="radPapua">Papua New Guinea</string>
+    <string name="radJapon">Japan</string>
+    <string name="radZimbabue">Zimbabwe</string>
+    <string name="radEtiopia">Ethiopia</string>
+    <string name="radTokio">Tokyo</string>
+    <string name="radAA">" ‎Addis Ababa"</string>
+    <string name="radLisboa">Lisbon</string>
+    <string name="radRoma">Rome</string>
+    <string name="radPM">Port Moresby</string>
+    <string name="radBerlin">Berlin</string>
+</resources>
