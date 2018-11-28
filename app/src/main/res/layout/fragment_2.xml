@@ -22,73 +22,74 @@
                 android:orientation="vertical">
 
                 <RadioGroup
+                    android:id="@+id/radGCapital"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton"
+                        android:id="@+id/radTok"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Tokio" />
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/radTif"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Tiflis" />
 
                     <RadioButton
-                        android:id="@+id/radioButton4"
+                        android:id="@+id/radFT"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="FreeTown" />
 
                     <RadioButton
-                        android:id="@+id/radioButton5"
+                        android:id="@+id/radMan"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Managua" />
 
                     <RadioButton
-                        android:id="@+id/radioButton6"
+                        android:id="@+id/radAA"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Adís Abeba" />
 
                     <RadioButton
-                        android:id="@+id/radioButton7"
+                        android:id="@+id/radLis"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Lisboa" />
 
                     <RadioButton
-                        android:id="@+id/radioButton8"
+                        android:id="@+id/radHar"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Harare" />
 
                     <RadioButton
-                        android:id="@+id/radioButton9"
+                        android:id="@+id/radRom"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Roma" />
 
                     <RadioButton
-                        android:id="@+id/radioButton10"
+                        android:id="@+id/radPM"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Puerto Moresby" />
 
                     <RadioButton
-                        android:id="@+id/radioButton11"
+                        android:id="@+id/radBer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
