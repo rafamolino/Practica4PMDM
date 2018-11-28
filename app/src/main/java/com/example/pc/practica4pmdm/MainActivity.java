@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
     Button btn1;
     Button btn2;
     Button btn3;
+    Button btn4;
 
 
     @Override
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         btn1 = findViewById(R.id.button1);
         btn2 = findViewById(R.id.button2);
         btn3 = findViewById(R.id.button3);
+        btn4 = findViewById(R.id.button4);
 
 
         btn1.setOnClickListener(new View.OnClickListener() {
@@ -41,6 +43,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(v.getContext(), DesplazandoImagenes.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), SeleccionandoImagenes.class);
                 startActivityForResult(intent, 0);
             }
         });

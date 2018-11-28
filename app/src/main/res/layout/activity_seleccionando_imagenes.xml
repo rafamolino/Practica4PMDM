@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seleccionandoimagenes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SeleccionandoImagenes">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:id="@+id/fragment"
+
+
+
+        <fragment
+            android:id="@+id/fragment5"
+            android:name="com.example.pc.practica4pmdm.FragmentRosa"
+            android:layout_width="match_parent"
+            android:layout_height="304dp"
+            android:layout_margin="15dp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="177dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnRosa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rosa" />
+
+            <Button
+                android:id="@+id/btnMargarita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Margarita" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="177dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnTulipan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tulipán" />
+
+            <Button
+                android:id="@+id/btnClavel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clavel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
