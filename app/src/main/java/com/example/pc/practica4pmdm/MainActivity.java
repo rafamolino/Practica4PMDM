@@ -9,6 +9,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     Button btn1;
     Button btn2;
+    Button btn3;
 
 
     @Override
@@ -18,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
         btn1 = findViewById(R.id.button1);
         btn2 = findViewById(R.id.button2);
+        btn3 = findViewById(R.id.button3);
+
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +34,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(v.getContext(), JuegodeAciertos.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), DesplazandoImagenes.class);
                 startActivityForResult(intent, 0);
             }
         });

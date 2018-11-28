@@ -16,8 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NumerosPrimos" android:label="@string/nprimos"  />
-        <activity android:name=".JuegodeAciertos" android:label="@string/juego_aciertos"/>
+        <activity
+            android:name=".NumerosPrimos"
+            android:label="@string/nprimos" />
+        <activity
+            android:name=".JuegodeAciertos"
+            android:label="@string/juego_aciertos" />
+        <activity android:name=".DesplazandoImagenes" android:label="@string/desplazandoimagenes" ></activity>
     </application>
 
 </manifest>

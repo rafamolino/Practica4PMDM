@@ -27,7 +27,7 @@
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="185dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginTop="30dp"
             android:orientation="vertical">
@@ -38,14 +38,15 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:drawableStart="@android:drawable/btn_star_big_off"
-                android:text="Button" />
+                android:text="Número Primos" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="Button" />
+                android:drawableStart="@android:drawable/star_big_off"
+                android:text="Imagenes" />
         </LinearLayout>
 
         <LinearLayout
@@ -60,14 +61,15 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:drawableStart="@android:drawable/btn_star_big_on"
-                android:text="Button" />
+                android:text="Juego de Aciertos" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="Button" />
+                android:drawableStart="@android:drawable/star_on"
+                android:text="Flores" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
