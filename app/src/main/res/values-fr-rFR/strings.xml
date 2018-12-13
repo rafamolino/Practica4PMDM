@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practica4PMDM</string>
+    <string name="pais">Pays:</string>
+    <string name="juego_aciertos">Devinez jeu</string>
+    <string name="juegoAciertos">DEVINEZ JEU</string>
+    <string name="btnVerificar">Vérifier</string>
+    <string name="radSierraLeona">Sierra Leone</string>
+    <string name="radItalia">Italie</string>
+    <string name="radAlemania">Allemagne</string>
+    <string name="radPapua">Papouasie Nouvelle Guinée</string>
+    <string name="radJapon">Japon</string>
+    <string name="radZimbabue">Zimbabwe</string>
+    <string name="radEtiopia">Ethiopie</string>
+    <string name="radTokio">Tokyo</string>
+    <string name="radAA">Addis Abeba</string>
+    <string name="radLisboa">Lisbonne</string>
+    <string name="radRoma">Rome</string>
+    <string name="radPM">Port Moresby</string>
+    <string name="radBerlin">Berlin</string>
+    <string name="nprimos">Nombre premier</string>
+    <string name="nPrimos">NOMBRE PREMIER</string>
+    <string name="txtNPrimo">Mettre un numéro</string>
+    <string name="btnCalcular">Calculer</string>
+    <string name="btnRosa">Rose</string>
+    <string name="btnTulipan">Tulipe</string>
+    <string name="btnMargarita">Marguerites</string>
+    <string name="btnClavel">Oeillet</string>
+    <string name="desplazandoimagenes">Défilement d\'images</string>
+    <string name="desplazarImagenes">DÉFILEMENT D\'IMAGES</string>
+    <string name="seleccionandoimagenes">Choisir des images</string>
+    <string name="seleccionarImagenes">Choisir des images</string>
+    <string name="capital">Capitale:</string>
+</resources>

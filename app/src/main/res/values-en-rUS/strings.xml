@@ -13,9 +13,21 @@
     <string name="radZimbabue">Zimbabwe</string>
     <string name="radEtiopia">Ethiopia</string>
     <string name="radTokio">Tokyo</string>
-    <string name="radAA">" ‎Addis Ababa"</string>
+    <string name="radAA">‎Addis Ababa</string>
     <string name="radLisboa">Lisbon</string>
     <string name="radRoma">Rome</string>
     <string name="radPM">Port Moresby</string>
     <string name="radBerlin">Berlin</string>
+    <string name="nprimos">Prime Numbers</string>
+    <string name="nPrimos">PRIME NUMBERS</string>
+    <string name="txtNPrimo">Put a number</string>
+    <string name="btnCalcular">Calculate</string>
+    <string name="btnRosa">Rose</string>
+    <string name="btnTulipan">Tulip</string>
+    <string name="btnMargarita">Daisies</string>
+    <string name="btnClavel">Carnation</string>
+    <string name="seleccionandoimagenes">Choosing images</string>
+    <string name="desplazarImagenes">SCROLLING IMAGES</string>
+    <string name="desplazandoimagenes">Scrolling images</string>
+    <string name="capital">"Capital: "</string>
 </resources>
