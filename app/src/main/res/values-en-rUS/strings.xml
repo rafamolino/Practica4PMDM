@@ -30,4 +30,6 @@
     <string name="desplazarImagenes">SCROLLING IMAGES</string>
     <string name="desplazandoimagenes">Scrolling images</string>
     <string name="capital">"Capital: "</string>
+    <string name="numerosiprimo">It is a prime number</string>
+    <string name="numeronoprimo">It isn\'t a prime number</string>
 </resources>

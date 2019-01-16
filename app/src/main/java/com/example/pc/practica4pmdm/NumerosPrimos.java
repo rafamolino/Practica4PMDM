@@ -45,11 +45,11 @@ public class NumerosPrimos extends AppCompatActivity {
 
                 if(contador <= 2)
                 {
-                   txtResultadoP.setText("El numero es primo");
+                   txtResultadoP.setText(getResources().getString(R.string.numerosiprimo));
                 }
                 else
                 {
-                    txtResultadoP.setText("El numero no es primo");
+                    txtResultadoP.setText(getResources().getString(R.string.numeronoprimo));
                 }
             }
 

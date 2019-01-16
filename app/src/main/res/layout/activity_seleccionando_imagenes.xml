@@ -37,16 +37,16 @@
 
             <Button
                 android:id="@+id/btnRosa"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/EstiloFlores"
+
                 android:text="@string/btnRosa"
                 android:onClick="onClick"/>
 
 
             <Button
                 android:id="@+id/btnMargarita"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/EstiloFlores"
+
                 android:text="@string/btnMargarita"
                 android:onClick="onClick"/>
         </LinearLayout>
@@ -59,15 +59,13 @@
 
             <Button
                 android:id="@+id/btnTulipan"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/EstiloFlores"
                 android:text="@string/btnTulipan"
                 android:onClick="onClick"/>
 
             <Button
                 android:id="@+id/btnClavel"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/EstiloFlores"
                 android:text="@string/btnClavel"
                 android:onClick="onClick"/>
         </LinearLayout>

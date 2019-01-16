@@ -31,4 +31,6 @@
     <string name="seleccionandoimagenes">Choisir des images</string>
     <string name="seleccionarImagenes">Choisir des images</string>
     <string name="capital">Capitale:</string>
+    <string name="numeronoprimo">Ce n\'est pas nombre premier</string>
+    <string name="numerosiprimo">Oui c\'est nombre premier</string>
 </resources>

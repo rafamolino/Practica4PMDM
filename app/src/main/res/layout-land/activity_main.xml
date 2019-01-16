@@ -33,17 +33,15 @@
 
             <Button
                 android:id="@+id/button1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                style="@style/EstiloInicio"
+
                 android:drawableStart="@android:drawable/btn_star_big_off"
                 android:text="@string/nPrimos" />
 
             <Button
                 android:id="@+id/button3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                style="@style/EstiloInicio"
+
                 android:drawableStart="@android:drawable/star_big_off"
                 android:text="@string/desplazarImagenes" />
         </LinearLayout>
@@ -55,17 +53,15 @@
 
             <Button
                 android:id="@+id/button2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                style="@style/EstiloInicio"
+
                 android:drawableStart="@android:drawable/btn_star_big_on"
                 android:text="@string/juegoAciertos" />
 
             <Button
                 android:id="@+id/button4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                style="@style/EstiloInicio"
+
                 android:drawableStart="@android:drawable/star_on"
                 android:text="@string/seleccionarImagenes" />
 

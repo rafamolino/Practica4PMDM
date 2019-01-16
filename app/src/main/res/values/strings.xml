@@ -4,7 +4,8 @@
     <string name="nprimos">Números Primos</string>
     <string name="desplazandoimagenes">Desplazando Imágenes</string>
     <string name="seleccionandoimagenes">Seleccionando Imágenes</string>
-
+    <string name="numerosiprimo">El número es primo</string>
+    <string name="numeronoprimo">El número no es primo</string>
     <string name="nPrimos">NÚMEROS PRIMOS</string>
     <string name="juegoAciertos">JUEGO DE ACIERTOS</string>
     <string name="desplazarImagenes">DESPLAZAR IMÁGENES</string>

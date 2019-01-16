@@ -105,32 +105,32 @@ public class JuegodeAciertos extends AppCompatActivity {
         radGPais.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-                if(rad1.isChecked())  txtPais.setText("Nicaragua");
-                if(rad2.isChecked()) txtPais.setText("Portugal");
-                if(rad3.isChecked()) txtPais.setText("Sierra Leona");
-                if(rad4.isChecked()) txtPais.setText("Italia");
-                if(rad5.isChecked()) txtPais.setText("Alemania");
-                if(rad6.isChecked()) txtPais.setText("Papúa Nueva Guinea");
-                if(rad7.isChecked()) txtPais.setText("Japón");
-                if(rad8.isChecked()) txtPais.setText("Zimbabue");
-                if(rad9.isChecked()) txtPais.setText("Etiopía");
-                if(rad10.isChecked()) txtPais.setText("Georgia");
+                if(rad1.isChecked())  txtPais.setText(getResources().getString(R.string.radNicaragua));
+                if(rad2.isChecked()) txtPais.setText(getResources().getString(R.string.radPortugal));
+                if(rad3.isChecked()) txtPais.setText(getResources().getString(R.string.radSierraLeona));
+                if(rad4.isChecked()) txtPais.setText(getResources().getString(R.string.radItalia));
+                if(rad5.isChecked()) txtPais.setText(getResources().getString(R.string.radAlemania));
+                if(rad6.isChecked()) txtPais.setText(getResources().getString(R.string.radPapua));
+                if(rad7.isChecked()) txtPais.setText(getResources().getString(R.string.radJapon));
+                if(rad8.isChecked()) txtPais.setText(getResources().getString(R.string.radZimbabue));
+                if(rad9.isChecked()) txtPais.setText(getResources().getString(R.string.radEtiopia));
+                if(rad10.isChecked()) txtPais.setText(getResources().getString(R.string.radGeorgia));
 
             }
         });
         radGCapital.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-                if(rad11.isChecked())  txtCapital.setText("Tokio");
-                if(rad12.isChecked()) txtCapital.setText("Tiflis");
-                if(rad13.isChecked()) txtCapital.setText("FreeTown");
-                if(rad14.isChecked()) txtCapital.setText("Managua");
-                if(rad15.isChecked()) txtCapital.setText("Adís Abeba");
-                if(rad16.isChecked()) txtCapital.setText("Lisboa");
-                if(rad17.isChecked()) txtCapital.setText("Harare");
-                if(rad18.isChecked()) txtCapital.setText("Roma");
-                if(rad19.isChecked()) txtCapital.setText("Puerto Moresby");
-                if(rad20.isChecked()) txtCapital.setText("Berlín");
+                if(rad11.isChecked())  txtCapital.setText(getResources().getString(R.string.radTokio));
+                if(rad12.isChecked()) txtCapital.setText(getResources().getString(R.string.radTiflis));
+                if(rad13.isChecked()) txtCapital.setText(getResources().getString(R.string.radFreeTown));
+                if(rad14.isChecked()) txtCapital.setText(getResources().getString(R.string.radManagua));
+                if(rad15.isChecked()) txtCapital.setText(getResources().getString(R.string.radAA));
+                if(rad16.isChecked()) txtCapital.setText(getResources().getString(R.string.radLisboa));
+                if(rad17.isChecked()) txtCapital.setText(getResources().getString(R.string.radHarare));
+                if(rad18.isChecked()) txtCapital.setText(getResources().getString(R.string.radRoma));
+                if(rad19.isChecked()) txtCapital.setText(getResources().getString(R.string.radPM));
+                if(rad20.isChecked()) txtCapital.setText(getResources().getString(R.string.radBerlin));
 
             }
         });
@@ -141,11 +141,11 @@ public class JuegodeAciertos extends AppCompatActivity {
                 pais=txtPais.getText().toString();
                 capital=txtCapital.getText().toString();
 
-                if(pais.equals("Nicaragua") && capital.equals("Managua") || pais.equals("Portugal") && capital.equals("Lisboa") ||
-                        pais.equals("Sierra Leona") && capital.equals("FreeTown") || pais.equals("Italia") && capital.equals("Roma") ||
-                        pais.equals("Alemania") && capital.equals("Berlín") || pais.equals("Papúa Nueva Guinea") && capital.equals("Puerto Moresby") ||
-                        pais.equals("Japón") && capital.equals("Tokio") || pais.equals("Zimbabue") && capital.equals("Harare") || pais.equals("Etiopía") && capital.equals("Adís Abeba") ||
-                        pais.equals("Georgia") && capital.equals("Tiflis"))
+                if(pais.equals(getResources().getString(R.string.radNicaragua)) && capital.equals(getResources().getString(R.string.radManagua)) || pais.equals(getResources().getString(R.string.radPortugal)) && capital.equals(getResources().getString(R.string.radLisboa)) ||
+                        pais.equals(getResources().getString(R.string.radSierraLeona)) && capital.equals(getResources().getString(R.string.radFreeTown)) || pais.equals(getResources().getString(R.string.radItalia)) && capital.equals(getResources().getString(R.string.radRoma)) ||
+                        pais.equals(getResources().getString(R.string.radAlemania)) && capital.equals(getResources().getString(R.string.radBerlin)) || pais.equals(getResources().getString(R.string.radPapua)) && capital.equals(getResources().getString(R.string.radPM)) ||
+                        pais.equals(getResources().getString(R.string.radJapon)) && capital.equals(getResources().getString(R.string.radTokio)) || pais.equals(getResources().getString(R.string.radZimbabue)) && capital.equals(getResources().getString(R.string.radHarare)) || pais.equals(getResources().getString(R.string.radEtiopia)) && capital.equals(getResources().getString(R.string.radAA)) ||
+                        pais.equals(getResources().getString(R.string.radGeorgia)) && capital.equals(getResources().getString(R.string.radTiflis)))
                 {
                     imgAcierto.setVisibility(View.VISIBLE);
                     imgFallo.setVisibility(View.INVISIBLE);
