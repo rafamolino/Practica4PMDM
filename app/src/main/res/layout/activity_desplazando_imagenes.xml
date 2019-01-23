@@ -8,28 +8,7 @@
     android:orientation="vertical"
     tools:context=".DesplazandoImagenes">
 
-    <!--<HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <fragment
-                android:id="@+id/fragment3"
-                android:name="com.example.pc.practica4pmdm.Fragment3"
-                android:layout_width="wrap_content"
-                android:layout_height="554dp" />
-
-            <fragment
-                android:id="@+id/fragment4"
-                android:name="com.example.pc.practica4pmdm.Fragment4"
-                android:layout_width="wrap_content"
-                android:layout_height="554dp" />
-        </LinearLayout>
-    </HorizontalScrollView>-->
     <android.support.v4.view.ViewPager
         android:id="@+id/view_pager"
         android:layout_width="match_parent"

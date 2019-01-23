@@ -2,12 +2,12 @@ package com.example.pc.practica4pmdm;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import java.net.Inet4Address;
+import android.widget.Toast;
 
 public class NumerosPrimos extends AppCompatActivity {
     EditText editNumero;
@@ -31,26 +31,38 @@ public class NumerosPrimos extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                numero=Integer.parseInt(editNumero.getText().toString());
-                contador=0;
 
 
-                for(i = 1; i <= numero; i++)
+
+                if(!editNumero.getText().toString().isEmpty())
                 {
-                    if((numero % i) == 0)
+                    numero=Integer.parseInt(editNumero.getText().toString());
+                    contador=0;
+                    for(i = 1; i <= numero; i++)
                     {
-                        contador++;
+                        if((numero % i) == 0)
+                        {
+                            contador++;
+                        }
                     }
-                }
 
-                if(contador <= 2)
-                {
-                   txtResultadoP.setText(getResources().getString(R.string.numerosiprimo));
+                    if(contador <= 2)
+                    {
+                        txtResultadoP.setText(getResources().getString(R.string.numerosiprimo));
+                    }
+                    else
+                    {
+                        txtResultadoP.setText(getResources().getString(R.string.numeronoprimo));
+                    }
+
                 }
                 else
                 {
-                    txtResultadoP.setText(getResources().getString(R.string.numeronoprimo));
+                    Toast toast = Toast.makeText(getApplicationContext(), "¡INTRODUCE UN NÚMERO!" , Toast.LENGTH_LONG);
+                    toast.setGravity(Gravity.CENTER_HORIZONTAL|Gravity.CENTER_VERTICAL,0,20);
+                    toast.show();
                 }
+
             }
 
 

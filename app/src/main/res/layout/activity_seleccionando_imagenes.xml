@@ -26,6 +26,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_gravity="bottom"
         android:layout_margin="10dp"
         android:orientation="horizontal">
 
@@ -39,16 +40,16 @@
                 android:id="@+id/btnRosa"
                 style="@style/EstiloFlores"
 
-                android:text="@string/btnRosa"
-                android:onClick="onClick"/>
+                android:onClick="onClick"
+                android:text="@string/btnRosa" />
 
 
             <Button
                 android:id="@+id/btnMargarita"
                 style="@style/EstiloFlores"
 
-                android:text="@string/btnMargarita"
-                android:onClick="onClick"/>
+                android:onClick="onClick"
+                android:text="@string/btnMargarita" />
         </LinearLayout>
 
         <LinearLayout
@@ -60,14 +61,14 @@
             <Button
                 android:id="@+id/btnTulipan"
                 style="@style/EstiloFlores"
-                android:text="@string/btnTulipan"
-                android:onClick="onClick"/>
+                android:onClick="onClick"
+                android:text="@string/btnTulipan" />
 
             <Button
                 android:id="@+id/btnClavel"
                 style="@style/EstiloFlores"
-                android:text="@string/btnClavel"
-                android:onClick="onClick"/>
+                android:onClick="onClick"
+                android:text="@string/btnClavel" />
         </LinearLayout>
     </LinearLayout>
 

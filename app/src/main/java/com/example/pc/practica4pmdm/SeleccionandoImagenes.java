@@ -36,14 +36,6 @@ public class SeleccionandoImagenes extends AppCompatActivity implements View.OnC
         btnTulipan = findViewById(R.id.btnTulipan);
         btnMargarita = findViewById(R.id.btnMargarita);
         btnClavel = findViewById(R.id.btnClavel);
-
-
-
-
-
-
-
-
     }
 
     @Override
